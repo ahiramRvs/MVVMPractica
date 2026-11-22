@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pas: crear navigation.xml -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/quoteFragment">
+
+    <fragment
+        android:id="@+id/quoteFragment"
+        android:name="com.example.simplemvvm.view.QuoteFragment"
+        android:label="QuoteFragment"
+        tools:layout="@layout/fragment_quote">
+        <action
+            android:id="@+id/action_quoteFragment_to_quoteListFragment"
+            app:destination="@id/quoteListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/quoteListFragment"
+        android:name="com.example.simplemvvm.view.QuoteListFragment"
+        android:label="QuoteListFragment"
+        tools:layout="@layout/fragment_quote_list" />
+</navigation>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MVVM</string>
+    <string name="btn_new_quote">Nueva frase</string>
+    <string name="btn_all_quotes">Ver todas las frases</string>
+    <string name="btn_back">Volver</string>
+    <string name="title_all_quotes">Todas las frases</string>
+</resources>
